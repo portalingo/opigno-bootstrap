@@ -1,0 +1,193 @@
+/*************
+GENERAL BODY
+************/
+body.admin-menu.navbar-is-fixed-top{
+        padding-top:50px;
+}
+
+.main-container{
+        width:100%;
+	height:100%;
+        padding-left:0px;
+        padding-right:0px;
+        background-image:
+}
+
+/******
+NAVBAR
+*****/
+.navbar .logo img{
+	width:100px;
+}
+
+
+/**********
+FRONT PAGE
+*********/
+/*FRONT PAGE SIZE & CONTAINER*/
+.front{
+	background-color:white;
+}
+
+/*FRONT LEFT : JUMBOTRON*/
+.front #block-block-2 .jumbotron {
+	padding-left:30px;
+	background-color:transparent;
+	text-align:right;
+}
+
+.front #block-block-2 .jumbotron h1{
+	font-size:52px;
+}
+
+.front #block-block-2 .btn{
+	width:100%;
+	white-space:normal;
+}
+
+.front #block-block-2 .btn h2{
+	font-size:20px;
+}
+
+.front #block-block2 .btn p{
+	font-size:12px;
+}
+
+/*FRONT RIGHT : SONG THUMBNAILS*/
+.front .region-front-right{
+	padding-top:48px;
+}
+
+.front #block-views-front-songs-block{
+	background-color: #2c3e50;
+	border-radius: 10px;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.front .region-front-right .thumbnail{
+	//background-color:#2c3e50;
+}
+
+.front .view-front-songs .thumbnail h3{
+	color:#2c3e50;
+	font-size:16px;
+	margin-top:10px;
+}
+
+.front .view-front-songs .thumbnail a{
+	color:#2c3e50;
+}
+
+
+/*********************
+LESSON SELECT SIDEBAR
+*******************/
+
+/*latest songs active links and hover*/
+.node-type-quiz .view-latest-songs li.media {
+	background-color:red;
+}
+
+.node-type-quiz .view-latest-songs .media.active {
+	background-color:green;
+}
+
+
+.node-type-quiz .view-latest-songs .media a.active{
+	background-color:black
+}
+
+
+
+
+
+
+
+
+
+
+/***********
+LESSON VIEW
+**********/
+
+.node-type-quiz{
+#	background-color:grey;
+}
+
+/*Join Tabs to Content + Match Colour*/
+.node-type-quiz .nav-tabs{margin-bottom:0px;}
+.node-type-quiz .nav-tabs > li.active > a{background-color:#ecf0f1;}
+
+.node-type-quiz .page-header{
+	background-color:#ecf0f1;
+	margin-bottom:0px;
+	padding-left:20px;
+	padding-top:20px;
+}
+
+.node-type-quiz .region-content{
+	background-color:#ecf0f1;
+	padding:20px;
+}
+
+/*QUIZ LOWER NAVIGATION BUTTONS*/
+
+/*Puts quiz buttons on right, green, and seperates from h5p*/
+.node-type-quiz .answering-form{float:right;padding-top:20px;}
+.node-type-quiz .answering-form #edit-submit{background-color:green;}
+
+
+/*fix double next button*/
+input#edit-submit-hidden, 
+button#edit-submit-hidden {
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+}
+
+
+/*H5P ADJUSTMENTS*/
+
+/*Makes h5p blue strip across page*/
+.node-type-quiz .h5p-container{
+	margin-left:-20px;
+	margin-right:-20px;
+	padding:20px;
+}
+
+/*General colours of h5p box*/
+.node-type-quiz .h5p-question{background-color:#2c3e50;color:white;}
+
+/*black text for questions*/
+.node-type-quiz .h5p-sc-label{color:black;}
+
+/*question progress bar -> orange */
+.node-type-quiz .h5p-sc-set-progress .h5p-sc-completed{background:#ffab00;}
+
+/*NEEDS WORK h5p Buttons Colour*/
+.node-type-quiz .h5p-question .h5p-joubelui-button{background-color:#2c3e50;}
+.node-type-quiz .h5p-question-buttons{background-color:#2c3e50;}
+.h5p-joubelui-button:first-child{background-color:#2c3e50;}
+
+/*video controls*/
+.node-type-quiz .h5p-interactive-video .h5p-controls{background:#2c3e50;}
+
+/*NEEDS WORK h5p feedback position*/
+.node-type-quiz .h5p-question-feedback-container{float:right;}
+.node-type-quiz .h5p-question-buttons .h5p-question-visible{float:right;}
+
+/*h5p Feedback: White Text and Orange Bar*/
+.node-type-quiz .h5p-question-feedback{color:white;}
+.node-type-quiz .h5p-joubelui-score-bar-progress{background: #ffab00;}
+.node-type-quiz .h5p-joubelui-score-bar-full-score-star.animate-background"{background: #ffab00;z-index:1;}
+
+/*Song Cover Image 100% of box - NOT WORKING*/
+.node-type-quiz .field-name-field-song-image .img-responsive {
+	width:100%;
+	height:auto;
+}
+
+
